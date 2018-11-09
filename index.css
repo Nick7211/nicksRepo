@@ -26,7 +26,6 @@ hr {
 
 ul {
     background-color:cyan; 
-    color:blueviolet;
     font-weight: bold;
 } /* nsn 2018-11-2: Changing the background color of the unordered list. */
 
@@ -35,20 +34,30 @@ li {
 }
 
 h3 {
-    color:white; 
     font-family: "Impact", Charcoal, Sans-serif;
     font-size: 30px; 
 } /* nsn 2018-11-2: Changing the font and size of header 3. */
 
-img {
-    width:20%; height:20%;
-}
+.image {
+    height: 250px;
+    width: 250px;
+} /* nsn 2018-11-9: changing the size of every image at once using <class> element */
+
+#facts {
+    color: darkblue;
+} /*  nsn 2018-11-9: Changed the color of the facts id using <id> */
+
+#sports {
+    color: yellow;
+} /* nsn 2018-11-9: Changes the color of the sports id text to yellow */
 
 footer {
     font-size: 10px;
     font-weight: bold;
 } /* nsn 2018-11-5: Changing the font size and weight of footer */
 
-
+a {
+    font-size: 20px;
+}
 
      
