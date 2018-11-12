@@ -1,42 +1,59 @@
 @page {margin: 2cm} 
 body {
-    background-color: black; font-family: 'Akronim'; 
+    background-color: darkgrey; font-family: 'Akronim'; 
 } /* nsn 2018-11-2: Changing the font and background color */
 
 h1 {
+    border-radius: 5px;
+    border: 10px solid;
     color:red;
     font-size: 40px;
     text-align: center;
-} /* nsn 2018-11-2: Changing the header font-size and alignment */
-
+    padding: 20px 0 20px 10px;
+    box-sizing: border-box;
+    width: 400px;
+    margin: 20px auto;
+    background-color: black;
+}
+/* nsn 2018-11-2: Changing the header font-size and alignment */
+/* nsn 2018-11-11: Made the header into a box */
 p {
-    color:black;
-    background-color: red; 
+    color: black; 
     font-size: 25px;
+    font-weight: bold;
 } /* nsn 2018-11-2: Changing the background color and font-size of <p> */
+/* nsn 2018-11-11: removed the red background behind every <p> element. */
 
 h2 {
-    color:cyan;
+    color:red;
     font-weight: bold;
-}
+    border-bottom: 5px dashed;
+    margin: 20px auto;
+    padding: 10px 0 10px 10px;
+    width: 200px;
+    text-align: center;
+    background-color: black;
+} /* nsn 2018-11-11: made a box around h2 and underlined it*/
 
 hr {
-    color:purple;
-}
+    border: none;
+    height: 10px;
+    background-color: black;  
+} /* nsn 2018-11-11: Changed thickness and background color of the horizontal rulers. */
+
 
 ul {
-    background-color:cyan; 
+    background-color: white;
     font-weight: bold;
 } /* nsn 2018-11-2: Changing the background color of the unordered list. */
 
 li {
-    color:blueviolet;
+    color: black;
 }
 
 h3 {
-    font-family: "Impact", Charcoal, Sans-serif;
     font-size: 30px; 
-} /* nsn 2018-11-2: Changing the font and size of header 3. */
+} /* nsn 2018-11-2: Changing size of header 3. */
 
 .image {
     height: 250px;
@@ -48,10 +65,11 @@ h3 {
 } /*  nsn 2018-11-9: Changed the color of the facts id using <id> */
 
 #sports {
-    color: yellow;
+    color: red;
 } /* nsn 2018-11-9: Changes the color of the sports id text to yellow */
 
 footer {
+    font-family: "Impact", Charcoal, Sans-serif;
     font-size: 10px;
     font-weight: bold;
 } /* nsn 2018-11-5: Changing the font size and weight of footer */
@@ -59,5 +77,20 @@ footer {
 a {
     font-size: 20px;
 }
+
+.images-container {
+    color: darkgrey;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* nsn 2018-11-11 Made a flex-box */
+
+
+
+
+
+
 
      
