@@ -57,7 +57,7 @@ h3 {
 
 .image {
     height: 250px;
-    width: 250px;
+    width: 300px;
 } /* nsn 2018-11-9: changing the size of every image at once using <class> element */
 
 #facts {
@@ -79,8 +79,7 @@ a {
 }
 
 .images-container {
-    color: darkgrey;
-    background-color: black;
+    background-color: darkgrey;
     display: flex;
     justify-content: space-between;
     align-items: center;
