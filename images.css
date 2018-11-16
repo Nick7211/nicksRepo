@@ -1,0 +1,15 @@
+body {
+    background-color: darkgrey;
+}
+
+.images-container {
+    background-color: darkgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    height: 250px;
+    width: 300px;
+}
