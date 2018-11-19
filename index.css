@@ -1,6 +1,7 @@
 @page {margin: 2cm} 
 body {
-    background-color: darkgrey; font-family: 'Akronim'; 
+    background-color: darkgrey; 
+    font-family: "Impact", Charcoal, Sans-serif; 
 } /* nsn 2018-11-2: Changing the font and background color */
 
 h1 {
