@@ -6,4 +6,4 @@ function init() {
 var buttons = document.getElementsByTagName ("button")
 
 var button1
-button1.addEventListener('click', show_hide1,
+button1.addEventListener('click', show_hide1

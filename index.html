@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="index.css" />
         <script type="text/javascript">
-            window.addEventListener('DOMContentLoaded', alert('Get the hell off my website!'), false);
+            window.addEventListener('DOMContentLoaded', alert('Get the hell off my website!'), false); <!-- nsn 2018-11-28: added a pop up to my page -->
         </script>
     </head>
     <body>
@@ -27,6 +27,14 @@
             <li> I am majoring in computer science.</li>
             <li> I have a twin brother.</li>
         </ul>
+        <h3> Hobbies of mine</h3>
+        <ul>
+            <li> I enjoy playing video games, mainly Rocket League. </li>
+            <li> I like playing ice hockey. </li>
+            <li> I go to the gym a lot. </li>
+            
+            <!-- nsn 2018-12-1: Added a list of my hobbies -->
+        </ul>
         </section> <!-- nsn 2018-11-5: added semantic (<section>) -->
         <hr />
         <section id = "sports"> <!-- nsn 2018-11-9: added <id> to this section -->
@@ -34,11 +42,16 @@
             <hr />
         <p> My favorite teams: </p>
        <div class='images-container'>
-            <div class= 'pens'><img src="pens.jpg" class = 'image'/></div>
+            <img class='image' id="myImage" src="pens.jpg"/>
             <div class= 'steelers'><img src="steelers.jpg" class= 'image'/></div>
             <div class= 'chiefs'><img src="chiefs.jpg" class= 'image'/></div>
        </div>
+            <hr/>
+            <button onclick="document.getElementById('myImage').src='pens.jpg'">Normal pens logo</button>
+            <button onclick="document.getElementById('myImage').src='pens2.png'">Better pens logo</button>
             <!-- nsn 2018-11-11: putting all the images in a <div> to then convert to flexbox -->
+            
+        
         </section>
         <hr />
         <footer>
@@ -47,6 +60,17 @@
             <hr />
         <a href="images">Some random images :) </a> <!-- nsn 2018-11-16: Added a link to my random images page -->
         <!--#include virtual="menu.html" -->
+            
+            <br />
+            <br />
+            <button type="button"
+             onclick="document.getElementById('demo').innerHTML = Date()">
+             Click me to display Date and Time bc I know u have no clue what time it is :D.</button>
+            
+            <p id="demo"></p>
+            
+            <hr/>
+            
         </footer> <!-- nsn 2018-11-5: Added semantic (<footer>) to say who posted the webpage and how to contact me -->
         
     </body>
